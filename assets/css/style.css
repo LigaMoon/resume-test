@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bungee+Shade|Permanent+Marker|Caveat:400,700|Titillium+Web&display=swap');
+
+/*  ----------------------------------------------- Colors */
+
+.bg-color-name-title {
+    background-color: #0C0C0C;
+}
+
+.menu-color {
+    background:linear-gradient(#0C0C0C, #A5A6AB);
+}
+
+/*  ----------------------------------------------- Headings */
+
+header {
+    margin:0;
+    font-family: 'Titillium Web',sans-serif;
+}
+
+.heading {
+    margin-left: 50px;
+    min-height: 240px;
+}
+
+.logo {
+    background: url('../images/my-logo-face.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    /* max-width: 300px; */
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.name {
+    font-family: 'Bungee Shade', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #A5A6AB; 
+}
+
+.title {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #A5A6AB; 
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menu-container {
+    font-size: 0;
+}
+
+/* #nav {
+    margin: 0;
+} */
+
+#nav li {
+    font-size: 20px;
+    padding: 0;
+}
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+    color: #F8EA8B;
+    font-family: 'Permanent Marker',sans-serif;
+    letter-spacing: 2px;
+}
+
+.menu-item a i {
+    color: #F8EA8B;
+    display: block;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20 px;
+}
+
+.menu-item a:hover {
+    color: #0c0c0c;
+    background-color: #F8EA8B;
+}
