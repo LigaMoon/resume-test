@@ -7,7 +7,8 @@
 }
 
 .menu-color {
-    background:linear-gradient(#0C0C0C, #A5A6AB);
+    background: #A5A6AB;
+    /* linear-gradient(#0C0C0C, #A5A6AB); */
 }
 
 /*  ----------------------------------------------- Headings */
@@ -57,9 +58,9 @@ header {
     font-size: 0;
 }
 
-/* #nav {
+div > ul#nav {
     margin: 0;
-} */
+}
 
 #nav li {
     font-size: 20px;
@@ -76,13 +77,13 @@ header {
     width: 100%;
     text-decoration: none;
     height: 120px;
-    color: #F8EA8B;
+    color: #0c0c0c;
     font-family: 'Permanent Marker',sans-serif;
     letter-spacing: 2px;
 }
 
 .menu-item a i {
-    color: #F8EA8B;
+    color: #0c0c0c;
     display: block;
     font-size: 25px;
     padding-top: 30px;
@@ -96,7 +97,10 @@ header {
     font-size: 20 px;
 }
 
-.menu-item a:hover {
-    color: #0c0c0c;
-    background-color: #F8EA8B;
+
+/*  ----------------------------------------------- ... */
+
+.hvr-sweep-to-bottom:before {
+    background-color:#0C0C0C;
+    height: 120px;
 }
