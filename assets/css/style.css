@@ -11,7 +11,25 @@
     /* linear-gradient(#0C0C0C, #A5A6AB); */
 }
 
-/*  ----------------------------------------------- Headings */
+/*  ----------------------------------------------- Special margin/padding/spacing/text */
+h1, h2, h3, h4 {
+   margin:0; 
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.sub-heading {
+    font-family: 'Caveat',sans-serif;
+    color: #A5A6AB;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*  ----------------------------------------------- Header */
 
 header {
     margin:0;
@@ -21,14 +39,30 @@ header {
 .heading {
     margin-left: 50px;
     min-height: 240px;
+
 }
 
+
+
 .logo {
-    background: url('../images/my-logo-face.jpg');
+    background: url('../images/half2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    /* max-width: 200px; */
+    /* max-width: 300px; */
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.logo2 {
+    background: url('../images/half1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-width: 200px; */
+    float: right;
     /* max-width: 300px; */
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -78,8 +112,16 @@ div > ul#nav {
     text-decoration: none;
     height: 120px;
     color: #0c0c0c;
-    font-family: 'Permanent Marker',sans-serif;
+    font-family: 'Caveat',sans-serif;
     letter-spacing: 2px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.menu-item a:hover i, .menu-item a:hover {
+ color: #A5A6AB;
 }
 
 .menu-item a i {
@@ -87,6 +129,10 @@ div > ul#nav {
     display: block;
     font-size: 25px;
     padding-top: 30px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .menu-item span {
@@ -98,9 +144,71 @@ div > ul#nav {
 }
 
 
-/*  ----------------------------------------------- ... */
+/*  ----------------------------------------------- Hover.css */
 
 .hvr-sweep-to-bottom:before {
     background-color:#0C0C0C;
     height: 120px;
 }
+
+/*  ----------------------------------------------- Footer */
+
+footer {
+    background-color: #0c0c0c;
+    color: #A5A6AB;
+    min-height: 120px;
+}
+
+.cv-pdf i {
+    width: 40px;
+    height: 40px;
+    padding: 10px 0;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    color: #A5A6AB;
+    background-color:  #1E1E1E;
+    border-radius: 50%;  
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    transform: scale(1.2,1.2);
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 10px 0;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    color: #A5A6AB;
+    background-color:  #1E1E1E;
+    border-radius: 50%;  
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.social-links li a i:hover {
+    transform: scale(1.2,1.2);    
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+#footer-details p {
+    font-family: 'Titillium Web',sans-serif;
+} 
