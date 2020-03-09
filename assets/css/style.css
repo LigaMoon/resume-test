@@ -6,6 +6,10 @@
     background-color: #0C0C0C;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
 .menu-color {
     background: #A5A6AB;
     /* linear-gradient(#0C0C0C, #A5A6AB); */
@@ -27,6 +31,22 @@ h1, h2, h3, h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: 'Titillium Web',sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /*  ----------------------------------------------- Header */
