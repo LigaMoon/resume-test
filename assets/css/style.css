@@ -89,6 +89,18 @@ header {
     -webkit-transition: all 0.5s ease-in-out;
 }
 
+.logo3 {
+    background: url('../images/my-logo-face.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+    min-width: 100%;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
 .name {
     font-family: 'Bungee Shade', sans-serif;
     font-weight: 700;
