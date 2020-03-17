@@ -244,3 +244,24 @@ footer {
 #footer-details p {
     font-family: 'Titillium Web',sans-serif;
 } 
+
+/*  ----------------------------------------------- Section Three Reasons */
+
+.three-reasons-icon {
+    font-size: 20px;
+    color: #000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #A5A6AB;
+    text-align: center;
+    padding: 10px 0;
+    margin:0;
+    margin-right: 10px;
+
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+    font-family: 'Titillium Web',sans-serif
+}
