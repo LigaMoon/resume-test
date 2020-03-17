@@ -10,9 +10,23 @@
     background-color: #fff;
 }
 
+.bg-color-pers-info {
+    background-color: #000;
+    color: #A5A6AB;
+}
+
 .menu-color {
     background: #A5A6AB;
     /* linear-gradient(#0C0C0C, #A5A6AB); */
+}
+
+#active-nav {
+    background-color: #fff;
+}
+
+#active-nav a, #active-nav a i {
+    color: #A5A6AB;
+
 }
 
 /*  ----------------------------------------------- Special margin/padding/spacing/text */
@@ -43,8 +57,12 @@ h1, h2, h3, h4 {
     float: none;
 }
 
+#spacing-info-column {
+    padding: 0 10px;
+}
+
 .section-heading {
-    font-family: 'Titillium Web',sans-serif;
+    font-family: 'Caveat',sans-serif;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -156,6 +174,15 @@ div > ul#nav {
  color: #A5A6AB;
 }
 
+/* a #active-nav .hvr-sweep-to-bottom i{
+    background-color: #fff;
+    color: #A5A6AB;
+} */
+
+#active-nav {
+    background-color: #fff;
+}
+
 .menu-item a i {
     color: #0c0c0c;
     display: block;
@@ -172,7 +199,7 @@ div > ul#nav {
     width: 100%;
     text-align: center;
     padding-top: 5px;
-    font-size: 20 px;
+    font-size: 20px;
 }
 
 
@@ -181,6 +208,7 @@ div > ul#nav {
 .hvr-sweep-to-bottom:before {
     background-color:#0C0C0C;
     height: 120px;
+    width: 102%;
 }
 
 /*  ----------------------------------------------- Footer */
@@ -264,4 +292,45 @@ footer {
 .three-reasons-heading {
     margin-bottom: 15px;
     font-family: 'Titillium Web',sans-serif
+}
+
+/*  ----------------------------------------------- Section Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+    font-family: 'Titillium Web',sans-serif;
+}
+
+.personal-info-item .value {
+    text-align: center;
+    position: relative;
+
+}
+
+.personal-info-item {
+    font-family: 'Titillium Web',sans-serif;
+
 }
