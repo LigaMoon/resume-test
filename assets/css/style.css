@@ -334,3 +334,24 @@ footer {
     font-family: 'Titillium Web',sans-serif;
 
 }
+
+/*  ----------------------------------------------- Section Skills */
+
+.progress {
+    position: relative;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    font-size: 15px;
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
