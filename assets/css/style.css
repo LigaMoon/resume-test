@@ -355,3 +355,39 @@ footer {
 .progress-section {
     margin: 40px 20px;
 }
+
+/*  ----------------------------------------------- Section Work History */
+
+.timeline-item {
+    padding: 3em 2em 0em 2em;
+    position: relative;
+    font-family: 'Titillium Web',sans-serif;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2em;
+    top: 1.5em;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 20px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 2em;
+    left: -10px;
+    border-radius: 10px;
+    content: '';
+    background-color: #A5A6AB;
+}
