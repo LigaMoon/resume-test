@@ -429,3 +429,10 @@ button[type="submit"] {
 
     }   
 }
+
+/*  ----------------------------------------------- Section INterests */
+
+#map {
+    min-height: 360px;
+}
+
